@@ -61,7 +61,7 @@ class Ui_Form(object):
         
     def setupUi(self, Form):
         Form.setObjectName("Dictionary")
-        Form.resize(640, 480)
+        Form.setFixedSize(640, 480)
         self.label = QtWidgets.QLabel(Form)
         self.label.setGeometry(QtCore.QRect(0, 0, 641, 491))
         self.label.setText("")
